@@ -3,6 +3,9 @@ div.main-body {
     grid-template-columns: minmax(300px, auto) 1fr;
     grid-template-areas: "navbar mainContent";
     grid-gap: 20px;
+	background-color: #DCF2F1;
+	padding: 20px;
+
 }
 
 nav#navbar {
@@ -16,9 +19,10 @@ nav#navbar a {
     padding: 5px;
     margin: 10px 0;
     text-decoration: none;
-    color: rgb(15, 9, 102);
+    color: #DCF2F1;
     background-image: none; /* Initial background image */
     transition: background-image 0.3s ease; /* Smooth transition */
+	background-color: #365486;
 }
 
 
@@ -32,7 +36,19 @@ header {
 }
 
 code {
-    background-color: #CCC;
+    background-color: #365486;
     display: block;
     padding: 20px;
+	color: white;
+	
+}
+
+p.main-paragraph {
+    color: #0F1035;
+}
+
+header, nav#navbar a {
+    font-family: 'Roboto Mono', monospace;
+	font-style: italic;  /* Applying Roboto Mono font */
+    /* Additional styling if needed */
 }

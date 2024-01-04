@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="style.css">
+	<title>Documentation</title>
 </head>
 <style>
     /* ... Your existing styles ... */
@@ -90,7 +91,7 @@
 				// Echo the content within the HTML structure
 				echo "<section class='main-section' id='Intro'>
 						<header>What is C++?</header>
-						<p>$cppInfoContent</p>
+						<p class='main-paragraph'>$cppInfoContent</p>
 					</section>";
 			?>
 				<code>
@@ -109,7 +110,7 @@
 						} 
 				</code>
 				<br>
-				<p>C++ is an Object Oriented Programming Language.
+				<p class="main-paragraph">C++ is an Object Oriented Programming Language.
 					<br> The main pillars of Object Oriented
 					Programming are :
 				</p>
@@ -130,10 +131,10 @@
 				// Echo the content within the HTML structure
 				echo "<section class='main-section' id='Intro'>
 						<header>Objects and classes</header>
-						<p>$objectsInfoContent</p>
+						<p class='main-paragraph'>$objectsInfoContent</p>
 					</section>";
 			?>
-				<p><b>Object : </b>An Object is an identifiable
+				<p class="main-paragraph"><b>Object : </b>An Object is an identifiable
 					entity with some characteristics and behavior.
 					An Object is an instance of a Class. When a
 					class is defined, no memory is allocated but
@@ -160,7 +161,7 @@
 				<header>
 					Inheritance
 				</header>
-				<p>
+				<p class="main-paragraph">
 					The capability of a class to derive
 					properties and characteristics from
 					another class is called Inheritance.
@@ -177,7 +178,7 @@
 					have inherited rest of the three classes
 					from base class(Vehicle).
 				</p>
-				<p> 
+				<p class="main-paragraph"> 
 					<b>Mode of Inheritance : </b><br><br>
 
 					<b>Public Mode : </b>If we derive a sub
@@ -235,7 +236,7 @@
 				<header>
 					Polymorphism
 				</header>
-				<p>
+				<p class="main-paragraph">
 					The word polymorphism means having many
 					forms. In simple words, we can define
 					polymorphism as the ability of a message
@@ -257,7 +258,7 @@
 					2. Runtime Polymorphism
 				</p>
 
-				<p>Compile time polymorphism: This type of
+				<p class="main-paragraph">Compile time polymorphism: This type of
 					polymorphism is achieved by function
 					overloading or operator overloading.
 					<br> Runtime polymorphism: This type
@@ -271,7 +272,7 @@
 					Abstraction
 				</header>
 
-				<p>
+				<p class="main-paragraph">
 					Data abstraction is one of the most
 					essential and important feature of object
 					oriented programming in C++. Abstraction
@@ -291,7 +292,7 @@
 					etc in the car. This is what abstraction is.
 				</p>
 
-				<p>
+				<p class="main-paragraph">
 					<b>Abstraction using Classes:</b> We can
 					implement Abstraction in C++ using classes.
 					Class helps us to group data members and member
@@ -329,7 +330,7 @@
 				<header>
 					Encapsulation
 				</header>
-				<p>
+				<p class="main-paragraph">
 					In normal terms Encapsulation is defined
 					as wrapping up of data and information
 					under a single unit. In Object Oriented
@@ -361,7 +362,7 @@
 					wrapped under a single name “sales section”.
 				</p>
 
-				<p>
+				<p class="main-paragraph">
 					Encapsulation also lead to data abstraction
 					or hiding. As using encapsulation also hides
 					the data. In the above example the data of
